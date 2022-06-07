@@ -6,9 +6,9 @@
     } */
 
     nav[class = "sticky-bar"]{
-        /* FIXME: FIX STICKY! */
-        /* position: sticky;
-        top: 20px; */
+        /* DONE: FIX STICKY! */
+        position: sticky;
+        top: 0px;
         display: grid;
         grid-template-columns: max-content 1fr max-content;
         align-items: center;
