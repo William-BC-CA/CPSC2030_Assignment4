@@ -6,7 +6,10 @@
     }
 }
 
-.sticky-bar{
+nav[class = "sticky-bar"]{
+    /* FIXME: FIX STICKY! */
+    position: sticky;
+    top: 20px;
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -20,4 +23,13 @@ nav ul{
 
 i[class = "fa fa-search"]{
     grid-column: 5 / 5;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+main aside{
+    grid-column: 2 / 2;
 }
