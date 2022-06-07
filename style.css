@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee|Mukta+Malar:300,400,600|Slabo+27px');
+
+html
+{
+	font-family: "Mukta Malar";
+}
+
+header {
+  background-image: url('thomas-litangen-433142.jpg');
+  background-size: cover;
+  background-position: center;
+  height:200px;
+}
+
+nav {
+  border-bottom: 10px solid tomato;
+}
+
+.sticky-bar {
+  background-color: white;
+}
+
+body
+{
+	margin:0;
+}
+
+h1 {
+	font-family: "Bungee";
+	font-size: 2rem;
+}
+
+h2
+{
+	font-family: "Slabo 27px";
+	color:tomato;
+}
+
+.wrapper
+{
+	max-width: 1000px;
+	margin:auto;
+}
+
+nav button
+{
+	background-color: transparent;
+	border:none;
+	font-size: 1.5rem;
+}
+
+.header-image
+{
+	height:200px;
+	width:100%;
+	object-fit: cover;
+}
+
+nav ul
+{
+	padding:0;
+  margin:0;
+	list-style-type: none;
+	font-size: 1.5rem;
+}
+
+nav ul li
+{
+	padding:1rem;
+	text-align: center;
+}
+
+form
+{
+	display: none;
+}
+
+aside
+{
+	background-color: lemonchiffon;
+}
+
+nav a
+{
+	color:tomato;
+	text-decoration: none;
+}
+
+main, aside
+{
+	padding:1rem;
+}
+
+/* Desktop */
+@media screen and (min-width: 1000px)
+{
+
+  header {
+    height: 400px;
+  }
+
+	nav ul
+	{
+	font-size: 1rem;
+	}
+
+	main
+	{
+		box-sizing: border-box;
+	}
+
+	aside
+	{
+		box-sizing: border-box;
+	}
+}

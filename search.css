@@ -1,0 +1,44 @@
+.search-form
+{
+	position:fixed;
+	top:0;
+	left:0;
+	background-color: rgba(230,120,80,.9);
+
+	height:100vh;
+	width:100vw;
+
+	text-align: center;
+
+	padding-top: 30vh;
+
+	font-size: 1.5rem;
+
+	color:white;
+}
+
+.search-form button
+{
+	font-size: 1.5rem;
+	background-color: transparent;
+	color:white;
+	border:none;
+	margin:.5rem;
+}
+
+.search-form #search-bar
+{
+	width:25%;
+	min-width: 300px;
+	font-size: 1.5rem;
+}
+
+.search-form .close-button
+{
+	position: fixed;
+
+	top:2rem;
+	right:2rem;
+
+	z-index: 10;
+}

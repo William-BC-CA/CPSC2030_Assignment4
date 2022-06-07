@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assignment 4</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="search.css" />
+    <!-- Your styles go in this stylesheet -->
+    <link rel="stylesheet" href="mystyles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+
+    <!-- jQuery CDN script tag here -->
+
+    <script>
+      // This code checks to make sure DOM has been loaded in the browser
+      $(function () {
+        // Your code goes here
+      });
+    </script>
+  </head>
+  <body>
+    <header></header>
+
+    <nav class="sticky-bar">
+      <h1>Assignment 4: Intro to jQuery</h1>
+
+      <button
+        class="search-button"
+        id="open-search"
+        aria-label="add descriptive text here"
+      >
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </button>
+
+      <ul>
+        <li><a href="#">Electric</a></li>
+        <li><a href="#">Acoustic</a></li>
+        <li><a href="#">Amplifiers</a></li>
+        <li><a href="#">Pedals</a></li>
+      </ul>
+
+      <!-- You will use jQuery to toggle this form -->
+      <form
+        method="post"
+        action="http://webdevbasics.net/scripts/demo.php"
+        class="search-form"
+      >
+        <label for="search-bar">Search</label>
+        <input
+          type="search"
+          id="search-bar"
+          name="search"
+          placeholder="search"
+        />
+
+        <button type="submit" aria-label="add descriptive text here">
+          Submit Search
+        </button>
+
+        <button
+          type="button"
+          class="close-button"
+          aria-label="add descriptive text here"
+        >
+          close
+        </button>
+      </form>
+    </nav>
+    <!-- end of sticky-bar -->
+
+    <div class="wrapper">
+      <main>
+        <section>
+          <h2>Electric</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ipsa
+            iste eligendi esse, est, accusamus consectetur omnis. Voluptas porro
+            perspiciatis rem dolore modi assumenda cumque, commodi fuga? Fugiat,
+            exercitationem tempore!
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio a
+            illum velit aspernatur dolorum architecto placeat, vero voluptatibus
+            sed officiis iste impedit sunt, voluptate nulla quisquam minus enim
+            sapiente beatae!
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
+            nobis delectus ullam. Tenetur ad soluta nesciunt, laudantium labore.
+            Dicta soluta quas expedita aperiam voluptatem culpa, perspiciatis
+            esse natus delectus enim.
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+            minima dolore tenetur cupiditate minus, exercitationem magni quasi,
+            vitae ipsa, autem earum sit nobis ipsum quam fuga! Laborum
+            praesentium autem, nemo.
+          </p>
+        </section>
+
+        <section>
+          <h2>Acoustic</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Exercitationem reprehenderit recusandae nobis excepturi deleniti
+            consectetur sit porro nostrum blanditiis dolorum nisi itaque, quia
+            minima laboriosam vitae repellendus tenetur ea sunt.
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+            obcaecati velit natus, asperiores commodi ipsa eos aperiam fugiat
+            suscipit quis, quo eaque. Quia eligendi, non est iure dolores enim,
+            voluptates.
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ipsa
+            iste eligendi esse, est, accusamus consectetur omnis. Voluptas porro
+            perspiciatis rem dolore modi assumenda cumque, commodi fuga? Fugiat,
+            exercitationem tempore!
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio a
+            illum velit aspernatur dolorum architecto placeat, vero voluptatibus
+            sed officiis iste impedit sunt, voluptate nulla quisquam minus enim
+            sapiente beatae!
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
+            nobis delectus ullam. Tenetur ad soluta nesciunt, laudantium labore.
+            Dicta soluta quas expedita aperiam voluptatem culpa, perspiciatis
+            esse natus delectus enim.
+          </p>
+        </section>
+      </main>
+
+      <aside>
+        <h2>Amplifiers</h2>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id at illo
+          ad dolore voluptatibus! Esse ratione, eaque impedit temporibus,
+          consequatur laboriosam cum incidunt autem illo dolor facere aperiam
+          odio eum.
+        </p>
+      </aside>
+    </div>
+    <!-- end of wrapper -->
+  </body>
+</html>
