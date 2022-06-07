@@ -1,0 +1,23 @@
+@media screen and (min-width: 1000px){
+    body{
+        display: grid;
+        grid-template-rows: 325px 500px 500px 500px;
+        /* grid-template-columns: auto auto auto; */
+    }
+}
+
+.sticky-bar{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+nav ul{
+    grid-column: 2 / 2;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    /* grid-template-columns: repeat(5, 1fr); */
+}
+
+i[class = "fa fa-search"]{
+    grid-column: 5 / 5;
+}
