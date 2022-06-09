@@ -53,9 +53,9 @@
     /* nav h1, button{
         width: max-content;
     } */
-}
 
-.minimize-nav{
-    border-bottom: 1px solid tomato;
-    transition: border-bottom 1s;
+    .minimize-nav{
+        border-bottom: 1px solid tomato;
+        transition: border-bottom 1s;
+    }
 }
