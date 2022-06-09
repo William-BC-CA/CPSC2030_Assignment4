@@ -23,15 +23,16 @@
       $(function () {
         let c = 0;
         // Your code goes here
-        $("button").on("click", function(){
+        $(".search-button").on("click", function(){
           // $("form").fadeToggle();
           $("form").fadeIn();
-          $("input").focus();
+          $("#search-bar").focus();
         });
-        // TODO: configure the end close button
+        // DONE: configure the end close button
         $(".close-button").on("click", function(){
         // $("button").off("click", function(){
           $("form").fadeOut();
+          $(".search-button").focus();
         });
         // https://stackoverflow.com/questions/4762594/jquery-keyup-for-tab-key
         // $("button").keypress(function(e){
