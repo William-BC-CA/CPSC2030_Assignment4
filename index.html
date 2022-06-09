@@ -49,6 +49,15 @@
         //   }
         // });
         // $("button[class = "
+        $(window).scroll(function(){
+          console.log("Hello");
+          if ($(window).scrollTop() >= $("header").height()){
+            $("nav").addClass("minimize-nav");
+          }
+          else {
+            $("nav").removeClass("minimize-nav");
+          }
+        });
       });
     </script>
   </head>

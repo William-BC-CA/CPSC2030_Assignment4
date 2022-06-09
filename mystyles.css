@@ -5,7 +5,7 @@
         grid-template-columns: auto auto auto;
     } */
 
-    nav[class = "sticky-bar"]{
+    nav {
         /* DONE: FIX STICKY! */
         position: sticky;
         top: 0px;
@@ -53,4 +53,8 @@
     /* nav h1, button{
         width: max-content;
     } */
+}
+
+.minimize-nav{
+    border-bottom: 1px solid tomato;
 }
